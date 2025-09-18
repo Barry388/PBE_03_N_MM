@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Programação Back-End - PHP</title> -->
+    <title>Primeira Aula</title>
 </head>
 <body>
-    <h1>Testando php</h1>
+    <h1>PG1</h1>
     <?php
-    echo "Comando pelo php novo";
+    $loop = 0;
+     while($loop <= 3){
+	    echo"estudar<br>";
+	    $loop++;
+}
+    
     ?>
     <br>
-    <a href="aula07_01.php">Aula atual</a><br>
+    <a href="index.php">voltar</a>
 </body>
 </html>
