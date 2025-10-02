@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Programação Back-End - PHP</title> -->
+    <title>Document</title>
 </head>
 <body>
-    <h1>Testando php</h1>
     <?php
-    echo "Comando pelo php novo";
+    $idade = 18;
+
+    if ($idade >= 18) {
+        echo "Você é maior de idade.";
+    }
     ?>
-    <br>
-    <a href="aula09_01.php">Aula atual</a><br>
+
 </body>
 </html>
