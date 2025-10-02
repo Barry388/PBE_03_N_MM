@@ -13,6 +13,5 @@
         echo "Você é maior de idade.";
     }
     ?>
-fdgdfhdf
 </body>
 </html>
