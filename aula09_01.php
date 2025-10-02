@@ -13,5 +13,21 @@
         echo "Você é maior de idade.";
     }
     ?>
+
+    <?php
+    
+    $hora = 2;
+
+    if ($hora >= 0 && $hora <= 11) {
+        echo "Bom dia!";
+    } else if ($hora >= 12 && $hora <= 18) {
+        echo "Boa tarde!";
+    } else if($hora >= 19 && $hora <= 23){
+        echo "Boa noite!";
+    }else{echo "hora desconhecida"; }
+
+    
+
+    ?>
 </body>
 </html>
